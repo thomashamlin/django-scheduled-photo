@@ -1,5 +1,5 @@
 {% load thumbnail %}
 <div>
-    <a href="{{ scheduled_photo.target_url }}"><img src="{% thumbnail scheduled_photo.photo 100x100 %}"/></a>
-    <p>{{ scheduled_photo.caption }}</p>
+    <a href="{{ photo.target_url }}"><img src="{% thumbnail photo.photo 100x100 %}"/></a>
+    <p>{{ photo.caption }}</p>
 </div>
